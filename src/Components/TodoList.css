@@ -1,0 +1,10 @@
+.containUl{
+    width: 327px;
+    height: 372px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 25px;
+    padding-top: 0;
+}

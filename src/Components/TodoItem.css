@@ -1,0 +1,46 @@
+.containsLi{
+    display: flex;
+    justify-content: space-between;
+    width: 327px;
+    height: 100px;
+    align-items: center;
+    top: 40px;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 17px 17px 26px 17px rgba(0,0,0,0.1);
+}
+.checkButton{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #61DAFA;
+    border: none;
+    position: relative;
+    right: 20px;
+    top: 40px;
+    text-align: center;
+    color: white;
+}
+.nonButton{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: red;
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+    text-align: center;
+    color: white;
+}
+.checkButton:hover{
+    cursor: pointer;
+    background-color:white;
+    color: #61DAFA;
+}
+.nonButton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+}

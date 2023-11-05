@@ -1,0 +1,14 @@
+.createButton{
+    width: 100px;
+    border: none;
+    height: 50px;
+    border-radius: 24px;
+    color: white;
+    background-color: #61DAFA;
+    box-shadow: 17px 17px 26px 17px rgba(0,0,0,0.1);
+}
+.buttonContainer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
