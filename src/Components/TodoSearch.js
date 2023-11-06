@@ -1,8 +1,9 @@
 import './TodoSearch.css'
-function TodoSearch(){
+import React  from 'react';
+function TodoSearch(props){
     return(
         <div className='inputContainer'>
-            <input placeholder="Do Homework" className='in'></input>
+            <input placeholder="Do Homework" value={props.state} className='in' onChange={(event)=>props.setState(event.target.value)}></input>
         </div>
     )
 }

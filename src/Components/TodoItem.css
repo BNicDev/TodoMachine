@@ -44,3 +44,10 @@
     background-color: white;
     color: red;
 }
+.checkButton-active {
+    background-color:white;
+    color: #61DAFA;
+}
+.parrafo-active{
+    text-decoration: line-through;
+}

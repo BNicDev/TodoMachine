@@ -13,3 +13,6 @@
     box-shadow: 17px 17px 26px 17px rgba(0,0,0,0.1);
     border-radius: 25px;
 }
+.in:focus{
+  outline-color:#61DAFA ;
+}
