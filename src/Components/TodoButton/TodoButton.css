@@ -6,6 +6,7 @@
     color: white;
     background-color: #61DAFA;
     box-shadow: 17px 17px 26px 17px rgba(0,0,0,0.1);
+    margin-top: 30px;
 }
 .buttonContainer{
     justify-content: center;

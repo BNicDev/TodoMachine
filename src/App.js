@@ -10,7 +10,8 @@ const defaultTodos = [
 {text:'cortar cebolla', completed:true},
 {text:'tomar curso intro react js', completed:false},
 {text:'llorar con la llorona', completed:false},
-
+{text:'cortar cebolla', completed:true},
+{text:'llorar con la llorona', completed:false},
 ];
 
 function App() {
