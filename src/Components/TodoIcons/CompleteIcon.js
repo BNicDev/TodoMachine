@@ -6,4 +6,4 @@ function CompleteIcon(){
        <FaCheck/>
     )
 }
-export {CompleteIcon};
+export default CompleteIcon;

@@ -6,4 +6,4 @@ function DeleteIcon(){
         <FaTimes/>
     )
 }
-export {DeleteIcon};
+export default DeleteIcon;

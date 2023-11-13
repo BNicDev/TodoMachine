@@ -1,7 +1,7 @@
-import TodoCounter from './Components/TodoCounter';
-import TodoSearch from './Components/TodoSearch';
-import TodoList from './Components/TodoList';
-import TodoItem from './Components/TodoItems';
+import TodoCounter from './Components/TodoCounter/TodoCounter';
+import TodoSearch from './Components/TodoSearch/TodoSearch';
+import TodoList from './Components/TodoList/TodoList';
+import TodoItem from './Components/TodoItem/TodoItems';
 import CreateTodoButton from './Components/TodoButton/CreateTodoButtton';
 import React from 'react';
 import './App.css'
