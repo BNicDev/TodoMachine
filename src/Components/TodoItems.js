@@ -1,7 +1,7 @@
 import './TodoItem.css'
 import{CompleteIcon} from './CompleteIcon'
 import {DeleteIcon} from './DeleteIcon'
-function TodoItems(props){
+function TodoItem(props){
     return(
         <li className='containsLi'>
         <button className={`checkButton ${props.completed&&"checkButton-active" }`}onClick={props.onComplete}><CompleteIcon/></button>
@@ -10,4 +10,4 @@ function TodoItems(props){
       </li>
     );
   }
-  export default TodoItems;
+  export default TodoItem;
