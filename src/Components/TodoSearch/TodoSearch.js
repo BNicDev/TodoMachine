@@ -3,7 +3,7 @@ import React  from 'react';
 function TodoSearch(props){
     return(
         <div className='inputContainer'>
-            <input placeholder="Do Homework" value={props.state} className='in' onChange={(event)=>props.setState(event.target.value)}></input>
+            <input placeholder="Do Homework" value={props.state} className='in' onChange={(event)=>props.setSearchValue(event.target.value)}></input>
         </div>
     )
 }
