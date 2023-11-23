@@ -3,7 +3,7 @@ import {FaCheck } from 'react-icons/fa';
 
 function CompleteIcon(){
     return (
-       <FaCheck/>
+        <FaCheck/>
     )
 }
 export default CompleteIcon;
